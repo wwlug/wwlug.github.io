@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+html,
+
+body {
+    color:#444;
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+#wrapper {
+	margin: 0 auto 0;
+    min-height:100%;
+    position:relative;
+}
+
+.linkicons {
+    text-align: right;
+    height:10px;
+    max-width:800px;
+    margin: 0 auto 0;
+}
+
+#header {
+	height:170px;
+    max-width:800px;
+    margin:0 auto 0;
+}
+
+#header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top:10px;
+}
+
+#header img {
+    display:block;
+    width:300px;
+    margin: 0 auto 0;
+}
+
+#nav {
+    margin:0 auto 0;
+    max-width:800px;
+    text-transform:uppercase;
+    text-align:center;   
+}
+
+#nav li {
+    display:inline-block;
+    width:80px;
+    padding:5px;
+}
+
+#nav li:hover {
+    color:#999;
+}
+
+#nav a {
+    text-decoration:none;
+    color:inherit;
+}
+
+#content {
+    margin:0 auto 0;
+    max-width:800px;
+    padding:10px;
+    padding-bottom:100px; /* Height of the footer element */
+}
+
+#footer {
+    width:100%;
+    height:80px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:#222;
+    color:#999;
+    text-align: center;
+    font-size:0.9em;
+    padding:15px;
+}
+
+#footer a {
+    color:inherit; 
+}
+
+@media screen and (max-width:600px) {
+    .linkicons {
+        display:none;
+    }
+
+    #header {
+        height:80px;
+        padding:10px;
+    }
+
+    #header h1{
+        display:none;
+    }
+
+    #header img {
+        margin-left: 0;
+        margin-right: 0;
+        width:60%;
+        display:block;
+    }
+
+   #nav {
+    margin: 0 auto 0;
+    width:100%;
+    float:left;
+    margin-left: -30px;
+    text-transform:uppercase;
+    text-align:center;   
+}
+
+#nav li {
+    height:40px;
+    margin-bottom: 5px;
+    display:block;
+    padding:5px;
+    display:inline-block;
+    width:100%;
+    background-color: #efefef;
+}
+
+#nav li:hover {
+    color:#222;
+    background-color:#9f9f9f;
+}
+
+#nav a {
+    text-decoration:none;
+    color:inherit;
+    padding: 10px;
+}
+
+    #footer {
+        background-color: #FFF;
+        padding:0;
+        color:#444;
+        border-top:1px #444 solid;
+
+    }
+
+    #footer img {
+        padding:10px;
+    }
+
+
+}
